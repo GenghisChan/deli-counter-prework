@@ -10,6 +10,6 @@ def line(array)
     line.push(people)
   }
 end
-  puts "The line is currently: #{line.join(', ')}"
+  puts "The line is currently: #{line.join(' ')}"
 end
 end
