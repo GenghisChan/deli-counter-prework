@@ -23,3 +23,12 @@ def take_a_number(array, name)
       puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
 end
 end
+
+def now_serving(array)
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+  elsif array.length > 0
+    puts "Currently serving #{array[0]}"
+    array.pop()
+  end
+end
