@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index { |name, index|
-    
+
     people = "#{index + 1}. #{name}"
     line.push(people)
   }
