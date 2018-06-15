@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index { |name, index|
-    puts "The line is #{index + 1}. #{name}"
+    puts "The line is currently: #{index + 1}. #{name}"
   }
 end
 end
